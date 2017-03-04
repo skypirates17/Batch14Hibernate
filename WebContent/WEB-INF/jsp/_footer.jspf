@@ -1,0 +1,130 @@
+<footer id="fh5co-footer" role="contentinfo">
+    <div class="container">
+        <div class="row copyright">
+            <div class="col-md-12 text-center">
+                <p>
+                    <small class="block">Copyright &copy; 2017. All Rights Reserved.</small>
+                    <small class="block">Designed by <a href="#" target="_blank">Johnrey Angolluan</small>
+                </p>
+                <p>
+                    <ul class="fh5co-social-icons">
+                        <li><a href=""><i class="icon-facebook"></i></a></li>
+                        <li><a href=""><i class="icon-linkedin"></i></a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
+
+
+<script>
+	
+    var d = new Date(2017, 01, 16);
+    /* instead of 02 for Feb month, set it as 01, as months are indexed from 0 in js. */
+
+    //new Date().getTime() + 200 * 120 * 120 * 2000);
+
+    // default example	
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+
+    
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: true
+    });
+</script>
+
+<script>
+
+	$('#OutingForm').on('submit',function(e){
+		var btn = $('#submit-form-button');
+	    btn.button('loading');
+	    
+		var url = '<c:url value="/sendMessage.htm" />';
+		var form = JSON.stringify(jQuery(this).serializeArray());
+		e.preventDefault(); // avoid to execute the actual submit of the form.
+		
+	    $.ajax({
+	        type     	: 'POST',
+	        url      	: url,
+	        data     	: {form: form},
+	        success  	: function(resp) {
+	        	var obj = jQuery.parseJSON( resp );
+	        	showNotification(obj.TITLE, obj.MESSAGE, obj.ERRORTYPE);
+	        	btn.button('reset');
+	        	if (obj.ERRORTYPE == 2) {
+	        		var newdivcontent = '<div class="alert alert-success"><strong>Success!</strong><br>Thanks! Your message has been successfully sent. <br>And please avoid from sending this form again as NID may track us ;)</div>';
+	        		$("#mynewform").html(newdivcontent);
+	        	}
+	        },
+	        error		: function() {
+	        	showNotification("Error","There was an error submitting message...",4);
+	        	btn.button('reset');
+	        }
+	    });
+	    
+	});
+	
+	function showNotification(title, message, type) {
+		//TYPE --> http://bootstrap-notify.remabledesigns.com/
+		// 1 : Info
+		// 2 : Success
+		// 3 : Warning
+		// 4 : Danger / Error
+		
+		if (type == 1) {
+			$.notify({
+				icon: 'fa fa-info-circle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+					newest_on_top: true,
+					type: "info"
+			});
+		} else if (type == 2) {
+			$.notify({
+				icon: 'fa fa-check-circle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+				newest_on_top: true,
+				type: 'success'
+			});
+		} else if (type == 3) {
+			$.notify({
+				icon: 'fa fa-exclamation-triangle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+				newest_on_top: true,
+				type: 'warning'
+			});
+		} else if (type == 4) {
+			$.notify({
+				icon: 'fa fa-times-circle',
+				title: '<strong>'+ title +'</strong><br>',
+				message: message
+			},{
+				newest_on_top: true,
+				type: 'danger'
+			});
+		}
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+            <span>Lets see what your batchmates have to say to you</span>
+            <h2>Batchmates Messages</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 animate-box">
+            <div class="wrap-testimony">
+                <div class="owl-carousel-fullwidth">
+                
+	                <c:forEach items="${USER.messages}" var="messages">
+	                	<div class="item">
+	                        <div class="testimony-slide active text-center">
+	                            <figure>
+	                                <img src="<c:url value="/images/pix/${messages.picFileName}" />" style="" alt="${messages.name}">
+	                            </figure>
+	                            <span>${messages.name}</span>
+	                            <blockquote>
+	                                <p>"${messages.message}"</p>
+	                            </blockquote>
+	                        </div>
+	                    </div>
+	                </c:forEach>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

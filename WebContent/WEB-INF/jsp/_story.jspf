@@ -1,0 +1,176 @@
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+        <span>Timeline</span>
+        <h2>Our Story</h2>
+        <p>Lets look back on our good memories we've shared.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-md-offset-0">
+        <ul class="timeline animate-box">
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Our Humble Beginnings</h3>
+                        <span class="date"><i class="icon-calendar"></i>February 16, 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Dito nag simula ang lahat, mga panahon kung saan di pa uso ang glide, 
+                        lahat maagang pumapasok para sa kakarampot na sahod, 
+                        hmm kahit naman ata hanggang ngayon? haha!, mga panahon kung saan sabay sabay pa mag break 
+                        at kumain ng lunch kila tita titas, uso din ung salitang hashtag pamilya haha! 
+                        malungkot mang isipin na hindi na tayo kumpleto ngayon 
+                        pero hindi mawawala sa ating alaala na tayo ay nagsimula 
+                        bilang isang Batch14 at forever yong mananatili sa ating mga ala ala :) Happy Anniversay Batch 14</p>
+                    </div>
+                    
+                    
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">First Birthday Celebration of our batchmate</h3>
+                        <span class="date"><i class="icon-calendar"></i>March 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>First Celebrant sa Batch 14, birthday ni Rona, 
+                        hindi mapapantayan ang ngiti ng bawat isa sa atin, 
+                        mga panahon na hindi pa tayo nauumay sa napakasarap na gravy ng KFC at ang swak sa budget na flavor shots haha! </p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-3.jpg); "></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">End of Bootcamp Training,<br>Start of Work in Production</h3>
+                        <span class="date"><i class="icon-calendar"></i>April 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Lahat ay nagkaroon ng kaba noong isinalang tayo sa mga panelist na senior na natin ngayon, 
+                        Lahat ay nag handa at nag review sa ating bootcamp, 
+                        Dito nag simula na magkaroon na ng bawat buhay ang isat isa lalo nat nahati tayo sa dalawang department, 
+                        Nagsimula tayong sumulong sa ating kanya kanyang department at mas lalo pang natuto sa idustriya ng AEON. </p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-4.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Regularization</h3>
+                        <span class="date"><i class="icon-calendar"></i>August 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Tila ang bilis ng panahon para sa ating Batch 14, 
+                        parang kelan lang noong tayo ay lumabas sa production, 
+                        pero hindi natin namalayan na regularization period na pala natin, 
+                        lahat naman tayo ay na regular kaya lahat sa atin ay masaya, 
+                        alam natin na binigay natin ang lahat ng makakaya  natin. 
+                        Hindi malilimutan ang mga happy moments sa Octain burger kahit na hindi tayo kumpleto dito noon, 
+                        guys kelan mauulit ito? haha! </p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-5.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Outing in Quezon,<br>Chiarra's Birthday</h3>
+                        <span class="date"><i class="icon-calendar"></i>September 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Isa na ata ito sa pinakamasayang event sa ating Batch14, 
+                        hindi malilimutan ang sayang naranasan natin sa Quezon, 
+                        mga moments sa maalat na tubig ganun din sa masarap na pagkain at kantahan sa videoke, 
+                        at siyempre lahat ng ito ay hindi magiging posible kung wala ang ating ka batch na si Chiarra, 
+                        napaka mapagpatuloy ng pamilya ni cha kaya naman lahat ng ito ay naging posible.  Salamat cha! </p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-6.jpg);" ></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Triple Birthday Bash</h3>
+                        <span class="date"><i class="icon-calendar"></i>November 2015</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Siyempre ang 3 celebrants ng Month of November, Kristina, Doro and Nick, so 23,23 and 28 hahah peace Kristina!. 
+                        tatlong pagdiriwang sa iisang lugar at ito rin yung time kung saan nanuod tayo ng sine, 
+                        at si Rassel ung humiwalay kasi hindi niya trip ung Frankenstein haha!,
+                         Hindi rin malilimutan ang hipon dito sa kainan na ito, napakasarap at unli rice din, 
+                         kumpleto ang buong batch at talagang hindi ito malilimutan.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-7.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">1st Anniversary Celebration</h3>
+                        <span class="date"><i class="icon-calendar"></i>February 16, 2016</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Lumipas ang isang taon, at marami nang nagbago, 
+                        may mga nadevelop sa isat isa at ang iba naman ay mas lalong tumibay ang pagkakaibigan, 
+                        syempre may mga naging mas bully pa haha! Muli tayong nakompleto sa pagkakataong ito, 
+                        Talagang sulit ang package ng Shakeys at feel ko mauulit nanaman ito guys tomorrow/today haha! 
+                        For our 2nd anniversary marami na ang umalis sa atin pero muling nating bubuuin ang 
+                        Batch 14 at muling mag kita kita at gumawa ng mga precious moments :)</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-8.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">First batchmate to resign :(</h3>
+                        <span class="date"><i class="icon-calendar"></i>December 3, 2016</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Ryan, Ryan, Ry, Ry, ikaw ang unang umalis sa atin, 
+                        tho technically speaking si Raymond talaga ang unang umalis sa atin haha! pero ry kahit nasaaan ka man, 
+                        mahal na mahal at hindi ka namin makakalimutan, ingat lagi dyan sa work mo. 
+                        Sinundan naman ito ni Angelo at masusundan pa ni Doro, Alex. 
+                        Nakakalungkot man, pero kailangang harapin ang realidad, lahat tayo ay may kanya kanyang desisyon sa buhay, 
+                        pero sana hindi natin malimutan ang isat isa.. kapag after 10,15 years sana mag kita kita ulit tayo, 
+                        at malamang ang bawat isa sa atin ay pamilyado na at succesful na sa buhay! :)</p>
+                    </div>
+                </div>
+            </li>
+            <li class="animate-box">
+                <div class="timeline-badge" style="background-image:url(images/couple-9.jpg);"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h3 class="timeline-title">Promotion...Finally!</h3>
+                        <span class="date"><i class="icon-calendar"></i>February 2017</span>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Sa wakas ang pinakahihintay ng Batch haha!, 
+                        pano ba naman kasi, tayo lang ata ang may kakarampot sa sahod compare sa ibang company, 
+                        kahit nung naregular na tayo, hindi parin align ang atin salary,. 
+                        ngaun darating na promotion naway ang lahat sa atin ay ma promote. Tiwala lang guys, ez lang kase :) haha!</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+					
+<!-- The Modal -->
+<div id="picmodal" class="modalnew">
+
+  <!-- The Close Button -->
+  <span class="closenew" onclick="document.getElementById('picmodal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modalnew-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="captionnew"></div>
+</div>
+
