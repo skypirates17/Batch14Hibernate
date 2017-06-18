@@ -6,10 +6,10 @@
 -Spring 4 MVC<br>
 -Apache Tomcat<br>
 <br>
--Gradle<br>
--Hibernate<br>
+-Gradle (not impletement yet)<br>
+-Hibernate (not impletement yet)<br>
 -PostgreSQL<br>
--JSF<br>
+-JSF (not impletement yet)<br>
 <br>
 -AJAX<br>
 -JSON<br>
